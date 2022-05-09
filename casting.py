@@ -6,3 +6,7 @@ elif age >=20:
 	print("民法已成年")
 elif age >= 30 and age < 55:
 	print("正值青壯年")
+elif age >= 55:
+	print("中老年人")
+else:
+	print("年紀過小")
