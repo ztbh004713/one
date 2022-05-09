@@ -10,6 +10,11 @@ elif country == "us":
 	if age >= 16:
 		print("您的國籍為US，年紀符合考照。")	
 	elif age < 16:
-		print("因年齡不符合，無法考照。")		
+		print("因年齡不符合，無法考照。")
+elif country == "cn":
+	if age >= 18:
+		print("您的國籍為CN，年紀符合考照。")	
+	elif age < 18:
+		print("因年齡不符合，無法考照。")				
 else:
-	print("輸入的國家不符合，請再重新輸入。")
+	print("目前只能輸入(tw、us、cn)，當前輸入的國家不符合，請再重新輸入。")
