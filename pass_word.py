@@ -7,6 +7,8 @@ while x > 0:
 		print("恭喜輸入正確。")
 		break
 	else:
-		print("密碼輸入錯誤!" , "還有" , x ,"次機會。")
-		if x == 0:
+		print("密碼輸入錯誤!") 
+		if x > 0:
+			print( "還有" , x ,"次機會。")
+		else:	
 			print("帳號已被鎖定，請聯繫客服!!")
